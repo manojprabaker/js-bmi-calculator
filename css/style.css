@@ -1,0 +1,41 @@
+* {
+	padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.container {
+
+ 
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button
+{
+	margin:20px 0;
+	font-size: 20px;
+    color: #952da7;
+    background-color: #50ffff;
+	border-radius:10px;
+	padding:8px;
+}
+input {
+	padding:4px;
+	margin:5px 0;
+}
+.result
+{
+	font-size:20px;
+	font-weight:600;
+}
